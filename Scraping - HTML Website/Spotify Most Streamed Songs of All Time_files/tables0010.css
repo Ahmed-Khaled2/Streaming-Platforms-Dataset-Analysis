@@ -1,0 +1,71 @@
+#weeklytable		{ width: 660px; }/* pos+pos+title+period+peak+peak2+streams+streams */
+#weeklyarchivetable	{ width: 580px; }/* weekdate+title+streams+streams */
+#dailytable			{ width: 560px; }/* pos+pos+title+streams+streams */
+#insightstable		{ width: 540px; }/* country+title+streams */
+#defaultstats		{ width: 620px; }/* pos+title+period+peak+peak2+streams+streams */
+#chartstats			{ width: 785px; }/* pos+artist+smalltitle+mininumber+peak+peak2+4*period+2*weekdate */
+#chartssummary		{ width: 750px; }/* country+standard+standard+standard+standard */
+#simpletable		{ width: 100%; max-width: 750px; }
+#wwtotal			{ width: 600px; }/* pos+title+period+peak+peak2+number+smallnumber */
+#wwtotalartist		{ width: 470px; }/* pos+artist+number+smallnumber+pos+pos+pos */
+#artists			{ width: 885px; }/* pos+pos+artist+service+7*smallnumber+smallcountry+mininumber*/ 
+#artistsext			{ width: 330px; }/* pos+artist+smallnumber */
+#trendingcountry	{ width: 680px; }/* pos+pos+fulltitle */
+#trendingoverall	{ width: 730px; }/* pos+pos+title+smallernumber+title */
+#trendinglocal		{ width: 550px; }/* longtitle+standard */
+#trendingclist		{ width: 750px; }/* country+title+title */
+#overallai			{ width: 900px; }/* pos+pos+title+period+peak+peak2+2*smallnumber+6*smallernumber*/
+#youtubeartist		{ width: 775px; }/* pos+title+largenumber+number+smallernumber+smallnumber+number*/
+#youtubeartistindex	{ width: 600px; }/* smallernumber+artist+mnumber+smallnumber+smallnumber+mnumber+smallnumber+smallnumber*/
+#youtubemilestones	{ width: 480px; }/* pos+artisttitle+mnumber */
+#youtuberealtime	{ width: 660px; }/* pos+pos+longtitle+number+mnumber */
+#youtuberealtimetw	{ width: 685px; }/* pos+pos+longtitle+largenumber+mnumber */
+#spotifyartistindex	{ width: 315px; }/* pos+artist+largenumber*/
+#spotifydaily		{ width: 940px; }/* pos+pos+title+period+peak+peak2+4*streams+number */ 
+#spotifyweekly		{ width: 760px; }/* pos+pos+title+period+peak+peak2+2*streams+number */ 
+#spotifytotals		{ width: 665px; }/* pos+title+period+period+peak+peak2+streams+number */
+
+.col-pos			{ width: 40px; }
+.col-country		{ width: 150px; }
+.col-smallcountry	{ width: 120px; }
+.col-artist			{ width: 150px; }
+.col-fullartist		{ width: 230px; }
+.col-title			{ width: 300px; }
+.col-artisttitle	{ width: 360px; }
+.col-longtitle		{ width: 400px; }
+.col-fulltitle		{ width: 600px; }
+.col-smalltitle		{ width: 150px; }
+.col-largenumber	{ width: 125px; }
+.col-number			{ width: 100px; }
+.col-mnumber		{ width: 80px; }
+.col-service		{ width: 75px; }
+.col-smallnumber	{ width: 60px; }
+.col-smallernumber	{ width: 50px; }
+.col-mininumber		{ width: 40px; }
+.col-period			{ width: 35px; }
+.col-peak			{ width: 35px; }
+.col-peak2			{ width: 30px; }
+.col-streams		{ width: 90px; }
+.col-weekdate		{ width: 100px; }
+.col-standard		{ width: 150px; }
+.col-mark			{ width: 20px; }
+.col20				{ width: 20px; }
+.col30				{ width: 30px; }
+.col40				{ width: 40px; }
+.col50				{ width: 50px; }
+.col60				{ width: 60px; }
+.col70				{ width: 70px; }
+.col80				{ width: 80px; }
+.col90				{ width: 90px; }
+.col100				{ width: 100px; }
+.col120				{ width: 120px; }
+.col140				{ width: 140px; }
+.col160				{ width: 160px; }
+.col180				{ width: 180px; }
+.col200				{ width: 200px; }
+.col250				{ width: 250px; }
+.col300				{ width: 300px; }
+.col350				{ width: 350px; }
+.col400				{ width: 400px; }
+.col450				{ width: 450px; }
+.col500				{ width: 500px; }

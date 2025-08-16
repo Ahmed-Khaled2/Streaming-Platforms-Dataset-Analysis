@@ -1,0 +1,180 @@
+body
+{
+	font-size:10pt;
+	font-family:"Verdana", sans-serif;
+}
+
+div.subcontainer {
+	padding-bottom: 20px;
+}
+
+table { 
+	empty-cells: show; 
+	table-layout: fixed;
+	border-spacing: 0px;
+}
+
+td, th
+{
+	font-size:9pt;
+	font-family:"Verdana", sans-serif;
+	white-space: nowrap;
+	min-width: 30px;
+	text-align: right;
+	padding-right: 3px;
+    padding-left: 3px;
+	padding-top: 3px;
+    padding-bottom: 3px;
+}
+th.upper 
+{
+	text-align: center;
+}
+
+table.morevpadding td, table.morevpadding th {
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+td.text
+{
+	text-align: left;
+}
+
+th.text
+{
+	text-align: left;
+}
+
+table.alltext td, table.alltext th {
+	text-align: left;
+	line-height: 140%;
+	overflow: hidden;         
+	text-overflow: ellipsis;
+}
+
+.pagetitle
+{
+	font-size:12pt;
+	font-weight:bold;
+}
+.large
+{
+	font-size:12pt;
+}
+
+a:link, a:visited {
+	color: #990000;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #000000;
+	text-decoration: underline;
+}
+
+td div {
+   white-space: nowrap;
+   overflow: hidden;         
+   text-overflow: ellipsis;
+}
+td span.nobr {
+   display: block;
+   white-space: nowrap;
+   overflow: hidden;         
+   text-overflow: ellipsis;
+}
+td div.wrap {
+   white-space: pre-wrap;
+}
+
+table tbody tr:nth-child(2n) {
+  background: #f8f8f8;
+}
+table tbody tr:nth-child(2n+1) {
+  background: #f1f1f1;
+}
+table.alternate tbody tr:nth-child(2n) td:nth-child(2n) {
+  background: #f8f8f8;
+}
+table.alternate tbody tr:nth-child(2n) td:nth-child(2n+1) {
+  background: #f1f1f1;
+}
+table.alternate tbody tr:nth-child(2n+1) td:nth-child(2n) {
+  background: #f1f1f1;
+}
+table.alternate tbody tr:nth-child(2n+1) td:nth-child(2n+1) {
+  background: #f8f8f8;
+}
+
+table.addpos tbody {
+    counter-reset: ixcounter;
+}
+table.addpos thead tr::before {
+    content: "";
+    display: table-cell;
+}
+table.addpos tbody tr::before {
+    content: counter(ixcounter);
+    counter-increment: ixcounter;
+    display: table-cell;
+	font-size:9pt;
+	font-family:"Verdana", sans-serif;
+	white-space: nowrap;
+	text-align: right;
+	padding-right: 5px;
+    padding-left: 2px;
+	padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.highlight {
+	background: #ffffb3; 
+}
+.nobg {
+	background: #ffffff;
+}
+.deemph {
+	color: #666666;
+}
+.smaller {
+	font-size:8pt;
+	color: #333333;
+}
+.mini {
+	font-size:7pt;
+}
+.np {
+	padding-left:0px;
+}
+.mp {
+	padding-left:5px;
+}
+.bl {
+	border-left:1px solid black;
+}
+.bb {
+	border-bottom:1px solid black;
+}
+.newp
+{
+	font-weight:bold;
+}
+td a.dupe {
+	color: #999999;
+}
+.change24 {
+	display:none;
+}
+.b {
+	display:none;
+}
+
+.s {
+	display:none;
+}
+
+.daily {
+	display:none;
+}
+

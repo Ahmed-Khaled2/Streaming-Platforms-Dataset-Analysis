@@ -1,0 +1,173 @@
+#mainmenu {
+	width:100%;
+	float:left;
+	display: block;
+}
+
+#submenu {
+	width:100%;
+	float:left;
+	display: block;
+}
+
+#submenu2 {
+	width:100%;
+	float:left;
+	display: block;
+}
+
+#mainmenu li {
+	width: 140px;
+	float:left;
+	border:1px solid #FFFFFF; 
+	border-right:none;
+	text-align: center; 
+} 
+
+#mainmenu ul {
+	width: 706px;
+	margin: 0px;
+	padding: 0;
+	color: #FFFFFF;
+	list-style-type: none;
+}
+
+#mainmenu li.top {
+	border-bottom:none;
+} 
+
+#mainmenu li.right {
+	border-right:1px solid #FFFFFF;
+}
+
+#mainmenu li a {
+	background-color: #000000;
+	font: 12px Verdana, sans-serif;
+	font-weight: bold;
+	display: block;
+	line-height: 30px;
+	width: 100%;
+}
+
+#mainmenu a:link, #mainmenu a:visited, #mainmenu a:active {
+	color: #FFFFFF; text-decoration: none;
+}
+
+#mainmenu a:hover {
+	background-color:#FFFFFF; 
+	color: #000000;
+	text-decoration: none;
+}
+
+#submenu li a {
+	background-color: #800000;
+	font: 12px Verdana, sans-serif;
+	font-weight: bold;
+	display: block;
+	line-height: 30px;
+}
+
+#submenu li a.chosen {
+	background-color: #DE9800;
+}
+
+#submenu a:link, #submenu a:visited, #submenu a:active {
+	color: #FFFFFF; text-decoration: none;
+}
+
+#submenu a:hover {
+	background-color:#FFFFFF; 
+	color: #000000;
+	text-decoration: none;
+}
+
+#submenu ul {
+	margin: 0px;
+	padding: 0;
+	color: #FFFFFF;
+	list-style-type: none;
+}
+
+#submenu li {
+	float:left;
+	border:1px solid #FFFFFF; 
+	border-right:none;
+	text-align: center; 
+	background-color: #002080;
+	font: 12px Verdana, sans-serif;
+	font-weight: bold;
+	display: block;
+	line-height: 30px;
+	width: 150px;
+} 
+
+#submenu li.ww {
+	width: 150px;
+}
+#submenu li.main {
+	width: 150px;
+}
+#submenu li.yt {
+	width: 140px;
+}
+#submenu ul.yt li {
+	width: 140px;
+}
+
+#submenu2 li a {
+	background-color: #002080;
+	font: 12px Verdana, sans-serif;
+	font-weight: bold;
+	display: block;
+	line-height: 30px;
+}
+
+#submenu2 li a.chosen {
+	background-color: #0033CC;
+}
+
+#submenu2 li.peaks  a{
+	background-color: #006B10;
+	font: 12px Verdana, sans-serif;
+	font-weight: bold;
+	display: block;
+	line-height: 30px;
+}
+
+#submenu2 a:link, #submenu2 a:visited, #submenu2 a:active {
+	color: #FFFFFF; text-decoration: none;
+}
+
+#submenu2 a:hover {
+	background-color:#FFFFFF; 
+	color: #000000;
+	text-decoration: none;
+}
+
+#submenu2 ul {
+	margin: 0px;
+	padding: 0;
+	color: #FFFFFF;
+	list-style-type: none;
+}
+
+
+#submenu2 li {
+	float:left;
+	border:1px solid #FFFFFF; 
+	border-right:none;
+	text-align: center; 
+	background-color: #002080;
+	font: 12px Verdana, sans-serif;
+	font-weight: bold;
+	display: block;
+	line-height: 30px;
+	width:140px;
+} 
+
+#submenu2 li.ww {
+	width: 110px;
+}
+#submenu2 ul.yt li {
+	width: 140px;
+}
