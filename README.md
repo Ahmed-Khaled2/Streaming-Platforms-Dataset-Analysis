@@ -4,7 +4,7 @@
 This project analyzes the **Most Streamed Songs on Spotify in 2024** dataset, enriched with performance metrics from multiple streaming platforms.  
 The goal is to uncover **patterns, correlations, and key drivers of streaming success** across Spotify, YouTube, TikTok, Apple Music, Deezer, Amazon Music, Pandora, and SoundCloud.  
 
-We combined **data cleaning, exploratory data analysis (EDA), and visualization techniques** to answer research questions around **streaming performance, cross-platform relationships, and engagement metrics**.
+We combined **data cleaning, web scraping, exploratory data analysis (EDA), and visualization techniques** to answer research questions around **streaming performance, cross-platform relationships, and engagement metrics**.
 
 ---
 
@@ -53,10 +53,27 @@ To ensure a **reliable and consistent dataset**, the following steps were applie
 
 ---
 
+## 🌐 Web Scraping
+To **enrich the dataset**, additional information was gathered from **two external websites**:  
+**Source 1:** [kworb – Spotify Most Streamed Songs of All Time](https://kworb.net/spotify/songs.html)  
+**Source 2:** [AllMusic](https://www.allmusic.com)  
+- Scraped extra metadata and streaming-related statistics (such as recent tracks, engagement signals, or missing attributes).  
+- Cleaned and standardized the scraped data using the same process (handling nulls, converting types, formatting).  
+- **Merged the scraped datasets** with the original Kaggle dataset to provide a more comprehensive analysis.  
+
+### Extended Analysis
+After integrating the scraped data, we addressed **4 additional questions**, focusing on:  
+- How recent releases compare to older hits across multiple platforms.  
+- The effect of added engagement metrics on Spotify rank predictions.  
+- Cross-validation of platform popularity scores.  
+- Whether scraped data revealed new patterns not present in the original dataset.  
+
+---
+
 ## 📊 Analysis Approach
 We applied **Exploratory Data Analysis (EDA)** and **visualizations** to answer the research questions:  
 
-- Distribution plots and bar charts for **genre, release year, and explicit vs clean songs**.  
+- Distribution plots and bar charts for **release year, explicit vs clean songs**.  
 - Correlation heatmaps for **cross-platform relationships** (Spotify vs YouTube, TikTok vs Spotify, Shazam vs Streams).  
 - Trend analysis of **release years vs cumulative streams**.  
 - Comparative analysis of **collaborations vs solo tracks**.  
@@ -69,11 +86,7 @@ We applied **Exploratory Data Analysis (EDA)** and **visualizations** to answer 
 - **Pandas** → Data cleaning & manipulation  
 - **Matplotlib / Seaborn** → Data visualization  
 - **NumPy** → Statistical operations  
+- **BeautifulSoup / Requests** → Web scraping  
 - **Jupyter Notebook** → Analysis & exploration  
 
 ---
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Streaming-Platforms-Dataset-Analysis.git
